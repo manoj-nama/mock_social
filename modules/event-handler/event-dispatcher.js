@@ -19,7 +19,7 @@ class EventDispatcher {
                 eventHandler = EventHandler.onConnectionError;
                 break;
             default:
-                log(`${event} occurred`);
+                log(`${event} has occurred`);
                 eventHandler = global.util.noop;
                 break;
         }
