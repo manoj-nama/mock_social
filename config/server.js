@@ -7,7 +7,7 @@ const serverOptions = {
         port: 3005
     },
     tcp : {
-        port: 3000
+        port: process.env.PORT || 3000
     }
 };
 

@@ -24,4 +24,3 @@ const tcpOptions = global.config.SERVER_OPTIONS.tcp;
 const apiOptions = global.config.SERVER_OPTIONS.api;
 
 tcpServer.listen(tcpOptions.port);
-apiServer.listen(apiOptions.port);
