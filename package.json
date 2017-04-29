@@ -12,5 +12,8 @@
   },
   "scripts": {
     "start": "node index"
+  },
+  "engines": {
+    "node": "7.2.0"
   }
 }
